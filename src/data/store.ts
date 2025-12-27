@@ -4,7 +4,7 @@ export const products = [
     name: "Retro Handheld Console",
     category: "Technology",
     price: 59.99,
-    image: "https://framerusercontent.com/images/oCDAVYb409OovtE2SNLVIPK7zxk.png",
+    image: "https://i.ibb.co/vxkVG2Vq/Retro-Handheld-Console.jpg",
   },
   {
     id: "horizon-glow-sneakers",
