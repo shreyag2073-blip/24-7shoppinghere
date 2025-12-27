@@ -6,7 +6,7 @@ Welcome to the project! This repository contains a modern web application built 
 
 # Project Information
 
-* **Project URL:** [https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID]
+* **Project URL:** [https://24-7shoppinghere.vercel.app/]
 
 ---
 
