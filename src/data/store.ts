@@ -68,17 +68,17 @@ export const collections = [
   {
     id: "home",
     name: "Home",
-    image: "https://framerusercontent.com/images/kP7PfaRbatwMj2wiEWywOMAMSSo.png",
+    image: "https://i.ibb.co/gL7mgG3N/1.png",
   },
   {
     id: "footwear",
     name: "Footwear",
-    image: "https://framerusercontent.com/images/46tgWmYaR2EYE1UEPcyh284W2c.png",
+    image: "https://i.ibb.co/1GD74NDS/2.png",
   },
   {
     id: "technology",
     name: "Technology",
-    image: "https://framerusercontent.com/images/62NelkkmTRqU8sGn3bS4qcYz2E.png",
+    image: "https://i.ibb.co/7dzL10Qd/3.png",
   },
 ];
 
