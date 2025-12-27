@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# Project Overview
 
-## Project info
+Welcome to the project! This repository contains a modern web application built with a fast and scalable front-end stack.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+# Project Information
 
-There are several ways of editing your application.
+* **Project URL:** [https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID]
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+# How to Edit the Code
 
-Changes made via Lovable will be committed automatically to this repo.
+There are several ways to edit and work with this application.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Option 1: Use Your Local IDE
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+You can work locally using your preferred code editor.
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+* Node.js (recommended via **nvm**)
+* npm
+
+### Steps
+
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server supports hot reloading and provides an instant preview.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Option 2: Edit Directly on GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Navigate to the desired file in the repository.
+2. Click the **Edit** (pencil) icon.
+3. Make your changes.
+4. Commit the changes to save them.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Option 3: Use GitHub Codespaces
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Open the main page of the repository.
+2. Click the **Code** button.
+3. Select the **Codespaces** tab.
+4. Click **New codespace**.
+5. Edit files directly in the browser-based environment.
+6. Commit and push your changes when finished.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+# Technologies Used
 
-## Can I connect a custom domain to my Lovable project?
+This project is built with the following technologies:
 
-Yes, you can!
+* **Vite** – Fast development and build tooling
+* **TypeScript** – Type-safe JavaScript
+* **React** – Component-based UI library
+* **shadcn/ui** – Reusable UI components
+* **Tailwind CSS** – Utility-first CSS framework
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Deployment
+
+To deploy the project:
+
+1. Build the application.
+2. Publish it using your preferred hosting provider or platform.
+
+---
+
+# Custom Domain Setup
+
+You can connect a custom domain to this project through your hosting provider or deployment platform.
+
+Refer to your platform's domain configuration documentation for detailed steps.
+
+---
+
+# License
+
+Add your license information here (e.g., MIT, Apache 2.0, etc.).
