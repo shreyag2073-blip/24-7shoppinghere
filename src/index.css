@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light lavender-tinted Commerce theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 0% 10%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 50% 96%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 270 20% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 270 50% 96%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 270 40% 70%;
+
+    --radius: 1rem;
+
+    /* Custom colors */
+    --lavender: 270 50% 96%;
+    --lavender-dark: 270 40% 90%;
+    --lavender-accent: 270 60% 85%;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 10%;
+
+    --secondary: 270 30% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 270 20% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 270 30% 20%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 270 40% 50%;
+
+    --lavender: 270 30% 20%;
+    --lavender-dark: 270 25% 15%;
+    --lavender-accent: 270 40% 30%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+    @apply tracking-tight;
+  }
+}
+
+@layer components {
+  .page-header-bg {
+    @apply bg-lavender;
+  }
+
+  .container-main {
+    @apply max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-product {
+    @apply bg-muted rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+
+  .badge-tag {
+    @apply inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-background border border-border;
+  }
+
+  .arrow-button {
+    @apply w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:border-primary;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
